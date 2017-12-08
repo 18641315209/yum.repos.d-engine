@@ -1,0 +1,15 @@
+[ovirt-master-snapshot]
+name=Latest oVirt master nightly snapshot
+#baseurl=http://resources.ovirt.org/pub/ovirt-master-snapshot/rpm/el$releasever/
+mirrorlist=http://resources.ovirt.org/pub/yum-repo/mirrorlist-ovirt-master-snapshot-el$releasever
+enabled=1
+skip_if_unavailable=1
+gpgcheck=0
+
+[ovirt-master-snapshot-static]
+name=Latest oVirt master additional nightly snapshot
+#baseurl=http://resources.ovirt.org/pub/ovirt-master-snapshot-static/rpm/el$releasever/
+mirrorlist=http://resources.ovirt.org/pub/yum-repo/mirrorlist-ovirt-master-snapshot-static-el$releasever
+enabled=1
+skip_if_unavailable=1
+gpgcheck=0
